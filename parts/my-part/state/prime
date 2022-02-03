@@ -1,0 +1,17 @@
+!PrimeState
+dependency_paths: !!set {}
+directories: !!set
+  etc: null
+files: !!set
+  cat.sh: null
+  etc/foo: null
+  run.sh: null
+primed_stage_packages: !!set {}
+project_options: {}
+properties:
+  override-prime: snapcraftctl prime
+  prime:
+  - '*'
+scriptlet_metadata: !ExtractedMetadata
+  _data: {}
+  common_id_list: []
